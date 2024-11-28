@@ -14,4 +14,7 @@ ideas for 2D Game:
 - Incorporate pixelized art
 - Possibly add puzzles
 - Give it an adventurous setting
+- Have different Levels
+- Possibly add a starting Menu
+- 
 
