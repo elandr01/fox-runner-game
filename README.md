@@ -1,20 +1,16 @@
 # csci-185-final
 
-ideas for Math-Helper:
-- a study tool for calc students that generates random calc problems
-- maybe make it a game?
-- Calculus->
-- Derivatives-> Power Rule, Quotient Rule, Product Rule, Trig functions
-- Integrals -> Power Rule, By parts, Partial fractions, Trig functions, Inverse Trig functions, ln(x)/ e^{x}
-- -Indefinite/Improper Integrals -> 
-- Limits -> 0/0 || c/0
-
 ideas for 2D Game:
 - Incorporate Storyline
-- Incorporate pixelized art
-- Possibly add puzzles
+- Incorporate pixelized art -> Fox Runner (Name can be changed later)
+- Add puzzles
 - Give it an adventurous setting
-- Have different Levels
-- Possibly add a starting Menu
-- 
+- Have different Levels. For now 1 level.
+- Add a starting Menu and a Pause Menu
+
+FOR THE FILES NOTE:
+- Must have the resources folder with the sprite sheet
+- Directory of the folder must be set to a resources root
+- If there is no resource folder in the program than an exception will be thrown
+  
 
