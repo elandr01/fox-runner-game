@@ -1,5 +1,7 @@
 # csci-185-final
 
+*Due date for this project has been extended to 12/19*
+
 ideas for 2D Game:
 - Incorporate Storyline
 - Incorporate pixelized art -> Fox Runner (Name can be changed later)
