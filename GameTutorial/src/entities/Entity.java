@@ -1,44 +1,46 @@
 package entities;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Rectangle;
+import java.awt.*;
 import java.awt.geom.Rectangle2D;
 
-public abstract class Entity
+public abstract class Entity 
 {
-    //classes that extend from Entity can use these variables
-    protected float x, y;
+
+    protected float x,y;
     protected int width, height;
-    protected Rectangle2D.Float hitBox;
+    protected Rectangle2D.Float hitbox;
+
+
     public Entity(float x, float y, int width, int height)
     {
         this.x = x;
         this.y = y;
         this.width = width;
         this.height = height;
+
     }
-    
-    protected void drawHitBox(Graphics g)
+
+    protected void drawHitbox(Graphics g) 
     {
-        //for debugging hitbox
-        g.setColor(Color.pink);
-        g.drawRect((int)this.hitBox.x, (int)this.hitBox.y, (int)this.hitBox.width, (int)this.hitBox.height);
+        //For debugging the hitbox
+        g.setColor(Color.PINK);
+        g.drawRect((int)hitbox.x, (int)hitbox.y, (int)hitbox.width, (int)hitbox.height);
+
     }
-    
-    protected void initHitBox(float x, float y, float width, float height)
+
+    protected void initHitbox(float x, float y, int width, int height)
     {
-        this.hitBox = new Rectangle2D.Float(x, y, width, height);
+        hitbox = new Rectangle2D.Float(x,y ,width, height);
     }
-    
-//    protected void updateHitBox()
-//    {
-//        this.hitBox.x = (int)this.x;
-//        this.hitBox.y = (int)this.y;
+//    protected void updateHitbox() {
+//        hitbox.x = (int) x;
+//        hitbox.y = (int) y;
 //    }
-    
     public Rectangle2D.Float getHitbox()
     {
-        return this.hitBox;
+        return hitbox;
     }
+
+
+
 }
